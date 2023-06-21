@@ -1,0 +1,8 @@
+//AUDITING
+
+
+                                                                AUDITING
+																========
+-Auditing basically involves tracking and logging every change we make to our persisted data.
+-Auditing consists of tracking and storing every insert, update, and delete activity. 
+-Auditing aids in the preservation of history records, which can later be used to trace user activity.

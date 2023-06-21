@@ -1,0 +1,46 @@
+#SERVER PORT CONFIGURATION
+server.port=8080
+
+#POSTGRESQL CONFIGURATION
+spring.datasource.url= jdbc:postgresql://localhost:5432/intelizignpl
+spring.datasource.username= postgres
+spring.datasource.password= root
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+#JWT CONFIGURATION
+intelizign.pl.jwtSecret= springJWTSecretKey
+intelizign.pl.jwtExpirationMs= 3000000
+intelizign.pl.jwtRefreshExpirationMs= 120000
+intelizign.pl.cookieName = springJWTCookie
+
+#LOCAL SERVER CONFIGURATION
+hostname.name= http://localhost:8000
+pl.cookies.allow.domain=localhost
+pl.frontend.app.domain=http://localhost:3000/business-approvel/
+pl.frontend.app=http://localhost:3000
+
+#TIME-ZONE CONFIGURATION
+spring.app.timezone=GMT+05:30
+
+#FILE UPLOAD CONFIGURATION
+app.file.upload-dir=./uploads/files
+spring.servlet.multipart.max-file-size=30MB
+spring.servlet.multipart.max-request-size=30MB
+
+#BASE URL CONFIGURATION
+spring.mvc.servlet.path=/api
+
+#EMAIL CONFIGURATION
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=vickyshanestark@gmail.com
+spring.mail.password=xboxylltoujsobkn
+spring.mail.properties.mail.smtp.auths=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.protocol=smtp
+spring.mail.default-encoding=UTF-8
+spring.mail.test-connection=false
+
+
+

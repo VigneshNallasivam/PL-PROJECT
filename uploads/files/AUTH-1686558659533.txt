@@ -1,0 +1,7 @@
+http://localhost:8080/api/auth/signup
+http://localhost:8080/api/auth/signin
+
+{
+"username":"emp10",
+"password":"emp10@1631"
+}
